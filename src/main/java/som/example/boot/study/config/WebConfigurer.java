@@ -12,6 +12,7 @@ public class WebConfigurer implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
+        System.out.println("========================WebConfigurer addCorsMappings");
         registry.addMapping("/abc");
     }
 
